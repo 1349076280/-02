@@ -65,8 +65,8 @@ export default class index extends Component {
                             <Switch defaultChecked onChange={(e) => {
                                 this.onChange(e)
                             }} />
-                            <div style={{ color: "#ff6e00" }} >
-                                请先将机器人设置为管理员，否则无法踢人
+                            <div style={{ color: "#ff6e00", marginLeft: 15 }} >
+                                <InfoCircleOutlined></InfoCircleOutlined>  请先将机器人设置为管理员，否则无法踢人
                             </div>
                         </div>
                         <div>
