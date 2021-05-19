@@ -1,0 +1,19 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(https://weed.oss-cn-shanghai.aliyuncs.com/weed-common/background.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.form {
+    width: 350px;
+    height: 192px;
+    padding: 20px;
+    background-color: red;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsla(0, 0%, 100%, 0.9);
+    border-radius: 10px;
+}

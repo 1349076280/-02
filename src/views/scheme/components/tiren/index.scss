@@ -1,0 +1,45 @@
+.tiren_form {
+    .ant-form-item {
+        margin: 0;
+    }
+    .card_left_top {
+        .ant-radio-button-wrapper {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        .ant-card-body {
+            padding: 0 12px;
+        }
+        .radio-item {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+        }
+    }
+    .card_left_bottom {
+        .ant-radio-button-wrapper {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        .ant-card-body {
+            padding: 0 12px;
+        }
+        .radio-item {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+        }
+    }
+    .card_right {
+        .ant-card-extra {
+            width: 60%;
+        }
+        .ant-card-body {
+            background: #f5f5f5;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.childHome {
+    min-width: 88px;
+    .card-item {
+        width: 230px;
+        height: 50px;
+        background-color: #f3f6fb;
+        line-height: 50px;
+        padding-left: 16px;
+        box-sizing: border-box; 
+        margin-bottom: 10px;
+    }
+}
+.cfg-item {
+    width: 180px;
+    height: 56px;
+    margin-bottom: 8px;
+    background-color: #f3f6fb;
+    line-height: 56px;
+    padding:0 12px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

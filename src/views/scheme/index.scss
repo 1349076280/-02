@@ -1,0 +1,29 @@
+.scheme {
+    .tab-top {
+        width: 80px;
+        height: 45px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .ant-tabs-tab {
+        margin:0 0 0 10px;
+        padding: 10px 0 !important;
+    }
+    .ant-tabs-tab:nth-child(1) {
+        margin:0 
+    }
+    .ant-tabs-nav-wrap {
+        justify-content: center;
+    }
+    .card-bg {
+        background-color: #eef0f5;
+        color: rgba(0,0,0,.65);
+        font-size: 14px;
+       &>.ant-card-body:nth-child(1) {
+            padding:10px 20px
+        }
+    }
+}

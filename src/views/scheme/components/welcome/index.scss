@@ -1,0 +1,46 @@
+.welcome_form {
+    .ant-form-item {
+        margin: 0;
+    }
+    .tiaoJian > .ant-card-body {
+        padding: 0;
+        .tiaoJian-content {
+            background-color: #eef0f5;
+             padding: 20px 12px
+        }
+    }
+    .set {
+        .ant-card-body {
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .ant-empty {
+            margin: 0;
+        }
+    }
+    .card_bottom {
+        .ant-card-body {
+            padding: 10px;
+        }
+        .card-bottom {
+            display: flex;
+            div:nth-child(1) {
+                width: 80%;
+                box-sizing: border-box;
+                display: flex;
+                flex-wrap: wrap;
+                .ant-btn {
+                    margin: 0 6px 12px 0;
+                    width: 80px;
+                }
+            }
+            div:nth-child(2) {
+                width: 20%;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            }
+        }
+    }
+
+}

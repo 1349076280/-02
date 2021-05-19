@@ -1,0 +1,48 @@
+.today-data {
+    .title {
+        padding-left: 12px;
+        border-left: 2px solid #2866de;
+        height: 15px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .group-arr {
+        display: flex;
+        flex-wrap: wrap;
+        .group-item {
+            width: 95%;
+            height: 64px;
+            box-sizing: border-box;
+            padding: 10px 10px;
+            background-color: #f3f6fb;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+    }
+    .shop-title {
+        padding-left: 12px;
+        border-left: 2px solid rgb(255, 73, 73);
+        height: 15px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .shop-arr {
+        display: flex;
+        flex-wrap: wrap;
+        .shop-item {
+            width: 95%;
+            height: 64px;
+            box-sizing: border-box;
+            padding: 10px 10px;
+            background-color: #fff8f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.person-detail {
+    display: flex;
+    justify-content: center;
+    .ant-card-body {
+        padding: 10px;
+    }
+    .ava-top {
+        display: flex;
+        .ava-top-right {
+            margin-left: 10px;
+            div:nth-child(2) {
+                color: rgba(0,0,0,.45);
+                font-size: 12px;
+            }
+            .user-tag___23J9S {
+                display: inline-flex;
+                align-items: center;
+                background: #fed;
+                font-size: 12px;
+                padding: 0 8px;
+                height: 24px;
+                line-height: 24px;
+                border-radius: 2px;
+                color: #fa8c16;
+            }
+            div:nth-child(3) > span:nth-child(2) {
+                color: #2866de;
+                background: #eef4ff;
+                margin: 0 4px;
+            }
+            div:nth-child(3) > span:nth-child(3) {
+                background: #eef4ff;
+              
+            }
+            
+        }
+    }
+    .ava-center {
+        display: flex;
+        .ava-center-item {
+            flex: 1;
+            display: flex; 
+            flex-direction: column;
+            box-sizing: border-box;
+            height: 75px;
+            padding: 10px 10px;
+           justify-content: space-between;
+            div:nth-child(1) {
+                color: rgba(0,0,0,.45);
+            }
+            div:nth-child(2) {
+                font-weight: 800;
+            }
+        }
+    }
+}
