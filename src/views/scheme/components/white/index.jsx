@@ -33,7 +33,7 @@ export default class index extends Component {
                         </div>
                     </div>
                 </Form.Item>
-                <Form.Item>
+                <Form.Item style={{ marginTop: 10 }}>
                     <Card>
                         <div>
                             <Button>新增白名单成员</Button>
